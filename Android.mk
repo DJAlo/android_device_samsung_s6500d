@@ -14,6 +14,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),jenad)
+ifeq ($(TARGET_DEVICE),royss)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
